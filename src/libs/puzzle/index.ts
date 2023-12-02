@@ -1,5 +1,5 @@
-import { cookie, day, puzzleFile, year } from "@/constants";
-import { fetchInstructions, fetchPuzzle } from "@/libs/puzzle/fetch";
+import { cookie, day, puzzleFile, year } from "../../constants";
+import { fetchInstructions, fetchPuzzle } from "./fetch";
 import consola from "consola";
 import { readFileSync } from "fs";
 import { chromium } from "playwright";
