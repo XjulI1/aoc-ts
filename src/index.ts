@@ -1,4 +1,4 @@
-import { solver22 } from "./days/two";
+import { solver31 } from "./days/three";
 import { fetchAndWriteChallenge, readPuzzle } from "./libs";
 
 /**
@@ -9,7 +9,7 @@ import { fetchAndWriteChallenge, readPuzzle } from "./libs";
 async function main() {
   await fetchAndWriteChallenge();
   const data = readPuzzle();
-  console.log(solver22(data));
+  console.log(solver31(data));
 }
 
 main();
