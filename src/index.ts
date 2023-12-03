@@ -1,4 +1,5 @@
-import { fetchAndWriteChallenge, readPuzzle } from "@/libs";
+import { solver22 } from "./days/two";
+import { fetchAndWriteChallenge, readPuzzle } from "./libs";
 
 /**
  * Fonction principale
@@ -8,16 +9,7 @@ import { fetchAndWriteChallenge, readPuzzle } from "@/libs";
 async function main() {
   await fetchAndWriteChallenge();
   const data = readPuzzle();
-  solver(data);
-}
-
-/**
- * Fonction pour résoudre le puzzle
- * Testable dans index.spec.ts
- */
-export function solver(data: string[]) {
-  void data;
-  return 1;
+  console.log(solver22(data));
 }
 
 main();
